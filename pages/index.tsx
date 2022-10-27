@@ -4,9 +4,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import NewsCard from '../components/NewsCard'
-import Button from '../components/Button'
 import ServicesCard from '../components/ServicesCard'
-
+import Testimonial from '../components/Testimonial'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
            
        </section>
       
-
+    {/* Services */}
        <section className='flex flex-col items-center mt-52'>
               <div className='w-52'>
                     <h4 className='text-2xl font-bold text-[#044b6d] mb-5 '>OUR SERVICES</h4>
@@ -102,7 +102,16 @@ const Home: NextPage = () => {
                  
                 </div>
        </section>
-         
+    {/* Testimonials */}
+
+    <section className='mt-52'>
+            <Testimonial/>
+    </section>
+    <section>
+          <Footer/>
+    </section>
+
+
             
           
       
