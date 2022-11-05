@@ -6,11 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "^2.0.12",
     "@tailwindcss/forms": "^0.5.3",
+    "firebase": "^9.13.0",
     "next": "latest",
+    "nextjs-progressbar": "^0.0.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-google-button": "^0.7.2",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {

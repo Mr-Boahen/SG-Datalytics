@@ -6,7 +6,7 @@ const Testimonial = () => {
       <section class="bg-white">
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <div class="mx-auto max-w-xl text-center">
-      <h2 class="text-4xl text-[#1d5d7b] font-bold tracking-tight sm:text-5xl">
+      <h2 class="text-4xl text-[#1e81b0] font-bold tracking-tight sm:text-5xl">
         Read trusted reviews from our customers
       </h2>
 

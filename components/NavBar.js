@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import SG_Datalytics from '../images/Statista_logo.svg.png'
+import SG_Datalytics from '../images/me.png'
 import {Bars3Icon,XCircleIcon} from '../node_modules/@heroicons/react/24/outline'
 import Button from '../components/Button'
 const NavBar = () => {
@@ -22,7 +22,7 @@ const NavBar = () => {
   return (
     <div className=' flex shadow-lg  justify-between items-center   pl-2 bg-gray-200/80'>
       <div className='relative h-20 w-32  '>
-      <Image src={SG_Datalytics} layout='fill' objectFit='contain' />
+      <Image src={SG_Datalytics} height='5' layout='fill' objectFit='contain' />
       </div>
       
       <div className=' hidden absolute right-2    xl:inline-flex px-3 py-1 max-h-14' >
@@ -34,13 +34,13 @@ const NavBar = () => {
         <Button title='Database' dropdown={true} />
         <Button title='Infographics' dropdown={true} />
       </div>
-      
+     
         <div>
           {showMenu.show?(
               <div className='xl:hidden p-1 m-2 border-2 border-gray-500 rounded-lg hover:scale-110 transition transform duration-200 ease-out'>
                 <Bars3Icon onClick={toggleMenu} className='h-8 text-[#15688f]  '  />
               </div>
-          ):( <section className="fixed inset-y-0 right-0 z-50 flex lg:hidden ">
+          ):( <section className="fixed inset-y-0 right-0 z-50 flex lg:hidden  hover:translate-y-8 transition-all transform duration-200 ease-out">
                   <div className="w-screen max-w-sm">
                     <div className="flex h-60 flex-col divide-y rounded-xl shadow-lg divide-gray-200 bg-[#9cb9c7]/90">
                       <div className="overflow-y-scroll scrollbar scrollbar-thumb-[#15688f] scrollbar-track-gray-300">
